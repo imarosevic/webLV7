@@ -1,0 +1,17 @@
+extends ../layout
+
+block content
+    h1.
+         #{title}
+    
+    a(href="/projects/new").
+      Kreiraj Projekt
+    p
+    a(href="/projects/list/leader").
+      Projekti koje vodite
+    p
+    a(href="/projects/list/member").
+      Projekti u kojima ste član
+    p
+    a(href="/projects/list/archive").
+      Arhiva projekata
